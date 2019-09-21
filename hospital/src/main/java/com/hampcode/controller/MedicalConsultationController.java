@@ -44,6 +44,8 @@ public class MedicalConsultationController implements Serializable {
 		medicalExam=new MedicalExam();
 		
 		medicalExams = new ArrayList<MedicalExam>();
+		medicalExamItems=new ArrayList<>();
+		
 		getAllExams();
 	}
 
@@ -65,6 +67,7 @@ public class MedicalConsultationController implements Serializable {
 
 	public void addMedicalExamenItem() {
 
+		medicalExamItems.add(medicalExam);
 	}
 
 	public MedicalConsultation getMedicalConsultation() {
