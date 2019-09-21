@@ -7,3 +7,5 @@ INSERT INTO products (name,supplier,category,unit_price,units_in_stock) VALUES (
 INSERT INTO products (name,supplier,category,unit_price,units_in_stock) VALUES ('Product7', 3, 2, 20.00, 17);
 
 
+INSERT INTO medical_exams(name) VALUES('Rayos X');
+INSERT INTO medical_exams(name) VALUES('Sangre');
